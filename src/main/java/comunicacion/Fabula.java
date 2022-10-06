@@ -33,7 +33,7 @@ public class Fabula extends Escrito {
 	}
 	
 	public String toString() {
-		String palabra = getOrigen() + "\n" + getTitulo() + "\n" + getAutor() + "\n" + getPaginas() + "\n" + ensenanza + "\n" + interpretacion;
+		String palabra = getOrigen() + "\n" + getTitulo() + "\n" + getAutor() + "\n" + getPaginas() + "\n" + ensenanza;
 		return palabra;
 	}
 }
