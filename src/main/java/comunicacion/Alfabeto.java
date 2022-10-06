@@ -32,9 +32,8 @@ public class Alfabeto extends Pictograma {
 	}
 	
 	public String toString() {
-		for (int i=0; i<letras.length; i++) {
-			System.out.print(letras[i]);
-		}
-		return letras[0];
+		String unido = String.join(", ", letras);
+		
+		return unido;
 	}
 }
