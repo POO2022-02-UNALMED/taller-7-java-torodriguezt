@@ -71,13 +71,13 @@ public class Libro extends Escrito {
 
 
 	@Override
-	int palabrasTotales(int palabrasPagina) {
+	public int palabrasTotales(int palabrasPagina) {
 		int total = palabrasPagina * 2;
 		return total;
 	}
 
 	@Override
-	String interpretacion() {
+	public String interpretacion() {
 		return interpretacion;
 	}
 
