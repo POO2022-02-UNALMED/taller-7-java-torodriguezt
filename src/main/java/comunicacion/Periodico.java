@@ -27,8 +27,7 @@ public class Periodico extends Escrito {
 
 	@Override
 	public String toString() {
-		// TODO Auto-generated method stub
-		return null;
+		return "1";
 	}
 
 	public String getFecha() {

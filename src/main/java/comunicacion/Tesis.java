@@ -69,7 +69,6 @@ public class Tesis extends Escrito {
 
 	@Override
 	public String toString() {
-		// TODO Auto-generated method stub
-		return null;
+		return "1";
 	}
 }

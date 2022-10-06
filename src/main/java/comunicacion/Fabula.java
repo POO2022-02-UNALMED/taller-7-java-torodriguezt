@@ -33,6 +33,6 @@ public class Fabula extends Escrito {
 	}
 	
 	public String toString() {
-		
+		return "1";
 	}
 }
