@@ -25,7 +25,8 @@ public class Periodico extends Escrito {
 
 	@Override
 	public String toString() {
-		return "1";
+		String palabra = getOrigen() + "\n" + getTitulo() + "\n" + getAutor() + "\n" + getPaginas() + "\n" + fecha + "\n" + primicia;
+		return palabra;
 	}
 
 	public String getFecha() {
